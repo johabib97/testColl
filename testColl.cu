@@ -77,8 +77,6 @@ if(a <=0){
    	 fprintf(stderr,"[ERROR] - lg must be > 0\n");
    	 return EXIT_FAILURE;}
 
-//uint32_t ua=a;
-
 uint32_t b=atoi(argv[1]);
 
 if(b <=0){
