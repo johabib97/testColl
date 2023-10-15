@@ -6,9 +6,6 @@
 #include <cuda.h>
 #include <mpi.h>
 
-#include <sys/stat.h>
-#include <sys/time.h>
-
 #define ROOT 0
 #define MAXNGPU 3
 #define MAX_THREAD 512
@@ -16,7 +13,6 @@
 
 #define BASE 5
 #define POWER 13
-
 
 //nvcc -I/usr/local/openmpi-4.1.4/include -L/usr/local/openmpi-4.1.4/lib -lmpi testColl.cu -o testC
 // mpirun -np 1 testC 500 400 2
